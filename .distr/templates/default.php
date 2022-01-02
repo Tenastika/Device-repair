@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<title>!!! | !!!</title>
+		<title>Device repair</title>
 
 		<link rel="stylesheet" href="css/fonts/style.css">
 

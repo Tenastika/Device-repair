@@ -1,0 +1,107 @@
+.header {
+  &__menu-btn {
+    display: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(255, 107, 0, 0.16);
+    background-color: #fff;
+    background: 
+              url(../img/header/menu.png) center no-repeat,
+              #FFFFFF;
+  }
+  
+  &.fixed {
+    position: fixed;
+    box-shadow: 0px 5px 20px #CDDAE1;
+    padding: 25px 30px;
+    top: 0;
+    z-index: 500;
+  }
+
+  &__logo {
+    position: relative;
+    width: 202px;
+    height: 70px;
+    background: url(../img/header/logo.png) left /contain no-repeat;
+  }
+  &__logo::after {
+    content: 'Toti repara la noi';
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    text-transform: uppercase;
+    color: #276CAA;
+    font: 500 12px/14px 'Gilroy';
+    letter-spacing: 0.12em;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__menu-item {
+    display: block;
+    font: 600 16px/19px 'Gilroy';
+    margin-left: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+  }
+  &__menu-item:hover {
+    padding-bottom: 18px;
+    color: #E2001A;
+    border-bottom: 2px solid #E2001A;
+  }
+
+  &__address {
+    position: relative;
+    margin-left: 280px;
+    padding-left: 60px;
+    font: 400 14px/17px 'Montserrat';
+    a {
+      font: 400 12px/14px 'Montserrat';
+      text-decoration: underline;
+      color: #015AA9;
+    }
+  }
+  &__address::before {
+    content: url(../img/header/map.png);
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-left: -50px;
+  }
+
+  &__phone-num {
+    position: relative;
+    padding-right: 70px;
+    font: 600 20px/24px 'Gilroy';
+    margin-left: 20px;
+  }
+ 
+  &__phone-num::after {
+    content: url(../img/header/phone-call.png);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+  }
+
+  &__phone-num:hover::after {
+    content: url(../img/header/phone-call-hov.png);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+  }
+
+ .container {
+  max-width: 1920px;
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+} 
+
+}

@@ -20,6 +20,7 @@
 		{% block blocks %}
 		<div class="wrapper">
 		{% include 'header/block.php' %}
+		{% include 'main/block.php' %}
 		</div>
 
 		{% endblock %}

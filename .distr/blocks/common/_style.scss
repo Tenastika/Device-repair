@@ -65,9 +65,9 @@
     list-style: none;
   }
 
-  h3 {
-    font: 600 32px/38px 'Gilroy';
-    margin-bottom: 30px;
+  h4 {
+    font: 600 20px/23px 'Gilroy';
+    margin-bottom: 15px;
     @media (max-width: 992px) {
       
     }
@@ -93,4 +93,15 @@
     margin: 0 auto;
     padding: 80px 10px;
   } 
+  .btn {
+    border-radius: 15px;
+    background: #E2001A;
+    color: #F4F9FC;
+    font: 600 16px/26px 'Montserrat';
+  }
+  .btn:hover {
+    border-radius: 15px;
+    background:#FC142F;
+  }
+  
   

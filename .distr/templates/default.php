@@ -7,9 +7,12 @@
 
 		<title>Device repair</title>
 
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 		<link rel="stylesheet" href="css/fonts/style.css">
 
 		{% block styles %}
+		<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css" media="(max-width: 1920px)">
 		{% endblock %}	
@@ -21,10 +24,16 @@
 		<div class="wrapper">
 		{% include 'header/block.php' %}
 		{% include 'main/block.php' %}
+		{% include 'gadgets/block.php' %}
 		</div>
 
 		{% endblock %}
 		{% block scripts %}
+
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src = "https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+		<script src="libs/fancybox/jquery.fancybox.js"></script>
+
 		<script src="js/script.js"></script>
 		{% endblock %}
 	</body>

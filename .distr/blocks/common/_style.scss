@@ -81,6 +81,23 @@
     }
   }
 
+  h2 {
+    font: 700 80px/84px 'Bebas Neue';
+      margin-bottom: 20px;
+    @media (max-width: 1440px) {
+      font: 700 90px/90px 'Bebas Neue';
+    }
+    @media (max-width: 1024px) {
+      font: 700 70px/70px 'Bebas Neue';
+    }
+    @media (max-width: 992px) {
+      font: 700 40px/40px 'Bebas Neue';
+    }
+    @media (max-width: 425px) {
+      font: 700 26px/26px 'Bebas Neue';
+    }
+  }
+
   h4 {
     font: 600 20px/23px 'Gilroy';
     margin-bottom: 15px;

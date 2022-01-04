@@ -1,17 +1,189 @@
-.empty {
+.main {
 
-	@media ( max-width: 1200px ) {
+	@media ( max-width: 1800px ) {
+		&__sale {
+			right: 9%;
+		}
+		
 	}
 
-	@media ( max-width: 991px ) {
+	@media ( max-width: 1440px ) {
+		.container {
+			padding-top: 150px;
+	 }
+		&__sale {
+			right: 7%;
+		}
+		&__title-img {
+					top: 6%;
+					right: 13%;
+		}
+
+	}
+
+	@media ( max-width: 1200px ) {
+		&__sale {
+			right: 6%;
+		}
+		&__title-img {
+					top: 6%;
+					right: 17%;
+		}
+	}
+
+	@media ( max-width: 1110px ) {
+
+		&__title-img {
+					top: -7%;
+		}
+	}
+
+	@media ( max-width: 992px ) {
+
+		background: url(../img/main/Ellipse.png) 5% 45% no-repeat,
+		url(../img/main/Arrow.png) 5% 10% no-repeat,
+		url(../img/main/Dots.png) 95% 43% no-repeat,
+		url(../img/main/Wave.png) 95% 10%  no-repeat,
+		#F4F9FC; 
+
+		.container {
+			padding-top: 30px;
+		 }
+
+		 h1 {
+			 width: 70%;
+			 margin: -20px auto 15px;
+			 br {
+				 display: none;
+			 }
+		 }
+		&__title-img {
+			position: relative;
+			background: url(../img/main/master992.png) center /contain no-repeat,
+			radial-gradient(#ff6a0057 0%, rgba(255, 106, 0, 0) 60%);
+			left: 0;
+			top: 50px;
+			width: 100%;
+    	height: 400px;
+		}
+		&__sale {	
+			position: static;
+			display: flex;
+			width: 720px;
+			height: 200px;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			
+			span {
+				display: none;
+			}
+		}
+
+		&__sale-percent {
+			margin-top: 0px;
+			font: 700 113px/150px 'Bebas Neue';
+		}
+	
+		&__sale-percent::after {
+			content: url(../img/main/fire.png);
+			position: absolute;
+			top: 12%;
+			right: -50%;
+		}
+		&__sale-text {
+			padding-left: 50px;
+			margin-bottom: 20px;
+			font: 400 20px/26px 'Gilroy';
+		}
+		&__title-content {
+			width: 100%;
+			text-align: center;	
+		}
+
+		&__title {	
+			margin-bottom: 50px;
+		}
+
 	}
 
 	@media ( max-width: 768px ) {
+		background: url(../img/main/Ellipse.png) 5% 30% no-repeat,
+		url(../img/main/Arrow.png) 5% 10% no-repeat,
+		url(../img/main/Dots.png) 95% 30% no-repeat,
+		url(../img/main/Wave.png) 95% 10%  no-repeat,
+		#F4F9FC; 
+
+		&__sale {	
+			width: 95%;
+		}
 	}
 
-	@media ( max-width: 576px ) {
+	@media ( max-width: 550px ) {
+		background: url(../img/main/Ellipse.png) 5% 18% no-repeat,
+		url(../img/main/Arrow.png) 5% 2% no-repeat,
+		url(../img/main/Dots.png) 95% 18% no-repeat,
+		url(../img/main/Wave.png) 95% 2%  no-repeat,
+		#F4F9FC;
+
+		&__sale {	
+			width: 95%;
+			height: 233px;
+			flex-direction: column;
+		}
+		
+		&__sale-percent {
+			margin: -100px auto 0;
+			font: 700 113px/150px 'Bebas Neue';
+		}
+	
+		&__sale-text {
+			text-align: center;
+			padding-left: 0px;
+			margin-top: -25px;
+			font: 400 20px/26px 'Gilroy';
+		}
+
+		&__title-content {
+			margin-bottom: 60px;
+		}
 	}
 
 	@media ( max-width: 425px ) {
+		&__info {
+			gap: 30px;
+		}
+	}
+
+	@media ( max-width: 320px ) {
+		&__title-content {
+			p {
+				font: 400 16px/22px 'Gilroy';
+			}
+		}
+
+		&__title-btn {
+			width: 233px;
+			height: 48px;
+			font: 600 14px/28px 'Montserrat';
+		}
+
+		&__title {	
+			margin-bottom: 20px;
+		}
+
+		&__info-item {
+			
+			font: 400 14px/24px 'Gilroy';
+			text-align: center;
+			padding: 10px;
+
+			img {
+				margin-bottom: 5px;
+			}
+		}
+
+		&__sale-text {
+			font: 400 16px/22px 'Gilroy';
+		}
 	}
 }

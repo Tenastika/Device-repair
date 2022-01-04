@@ -9,6 +9,12 @@
 			</div>
 			
 		</div>
+		<div class="main__sale">
+			<p class="main__sale-percent">50%</p>
+			<p class="main__sale-text">скидка на ремонт телефонов, ноутбуков и планшетов до <b>-50%</b></p>
+			<span></span>
+			<div class="main__sale-timer timer"></div>
+		</div>
 		<div class="main__info">
 			<div class="main__info-item">
 				<img src="img/main/1.png" alt="icon">
@@ -17,8 +23,8 @@
 			</div>
 			<div class="main__info-item">
 			<img src="img/main/2.png" alt="icon">
-				<h4 class="main__info-title">Подменный телефон -  Беслатно</h4>
-				<p class="main__info-text">Телефон взамен Беслатно, пока ваш в ремонте</p>
+				<h4 class="main__info-title">Подменный телефон -  Бесплатно</h4>
+				<p class="main__info-text">Телефон взамен бесплатно, пока ваш в ремонте</p>
 			</div>
 			<div class="main__info-item">
 			<img src="img/main/3.png" alt="icon">
@@ -27,11 +33,6 @@
 делаем бесплатно.</p>
 			</div>
 		</div>
-		<div class="main__sale">
-			<p class="main__sale-percent">50%</p>
-			<p class="main__sale-text">скидка на ремонт телефонов, ноутбуков и планшетов до <b>-50%</b></p>
-			<span></span>
-			<div class="main__sale-timer timer"></div>
-		</div>
+		
 	</div>
 </section>

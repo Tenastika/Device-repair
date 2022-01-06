@@ -25,6 +25,7 @@
 		{% include 'header/block.php' %}
 		{% include 'main/block.php' %}
 		{% include 'gadgets/block.php' %}
+		{% include 'company/block.php' %}
 		</div>
 
 		{% endblock %}

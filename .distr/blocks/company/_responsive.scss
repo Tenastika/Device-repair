@@ -1,0 +1,121 @@
+.company {
+
+	@media ( max-width: 1700px ) {
+		background: url(../img/company/back-ar.png) 30% 20% no-repeat,
+		url(../img/company/back-dots.png) 95% 90% no-repeat,
+		url(../img/company/back-el.png) 5% 90% no-repeat,
+		url(../img/company/back-wave.png) -1% 60% no-repeat,
+		linear-gradient(#EBF3F8, #ebf3f800);
+	}
+
+	@media ( max-width: 1200px ) {
+
+		background: url(../img/company/back-ar.png) 60% 10% no-repeat,
+		url(../img/company/back-dots.png) 101% 90% no-repeat,
+		url(../img/company/back-el.png) -1% 90% no-repeat,
+		url(../img/company/back-wave.png) -1% 65% no-repeat,
+		linear-gradient(#EBF3F8, #ebf3f800);
+
+		&__content {
+			flex-direction: column;	
+		}
+
+		&__info {
+			width: 100%;
+			position: relative;
+			p {
+				width: 50%;
+				font: 400 18px/24px 'Gilroy';
+			}
+			a {
+				position: absolute;
+				right: 10px;
+				top: 30%;
+			}
+		}
+
+		&__list {
+			padding: 0;
+		}
+	
+	}
+
+	
+
+	@media ( max-width: 991px ) {
+		&__list {
+			grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+			gap: 40px;
+			padding: 0;
+		}
+	}
+
+	@media ( max-width: 768px ) {
+
+		background: url(../img/company/back-ar.png) 50% 2% no-repeat,
+		url(../img/company/back-dots.png) 101% 90% no-repeat,
+		url(../img/company/back-el.png) -1% 90% no-repeat,
+		url(../img/company/back-wave.png) -1% 65% no-repeat,
+		linear-gradient(#EBF3F8, #ebf3f800);
+		&__list {
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		}
+	}
+
+	@media ( max-width: 580px ) {
+		background: url(../img/company/back-ar.png) 50% 2% no-repeat,
+		url(../img/company/back-dots.png) 101% 90% no-repeat,
+		url(../img/company/back-el.png) -1% 90% no-repeat,
+		url(../img/company/back-wave.png) 102% 74% no-repeat,
+		linear-gradient(#EBF3F8, #ebf3f800);
+
+		&__list-item {
+			text-align: center;
+			img {
+				width: 70px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	@media ( max-width: 425px ) {
+		&__info {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 30px;
+			p {
+				width: 100%;
+				font: 400 16px/22px 'Gilroy';
+				margin-bottom: 30px;
+			}
+			a {
+				position: relative;
+				margin: 0 auto;
+				width: 146px;
+				height: 48px;
+				font: 600 14px/26px 'Montserrat';
+			}
+		}
+
+		&__list {
+			gap: 20px;
+		}
+	}
+
+	@media ( max-width: 320px ) {
+		&__info {
+		p {
+			padding: 0 30px;
+		}
+}
+		&__list-item {
+			text-align: center;
+			
+				p {
+					
+					font: 400 16px/22px 'Gilroy';
+				}
+			
+		}
+	}
+}

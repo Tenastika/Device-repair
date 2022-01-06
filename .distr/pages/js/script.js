@@ -20,10 +20,10 @@ fixMenu();
 		}
 	}
 
-	if ( document.body.clientWidth <= 425 ) {
+	if ( document.body.clientWidth <= 630 ) {
 		
 		const swiper = new Swiper('.swiper', {
-			// Optional parameters
+		
 			direction: 'horizontal',
 			loop: false,
 	
@@ -31,31 +31,64 @@ fixMenu();
 			slidesPerGroup: 1,
 			spaceBetween: 40,
 			
-		
-			// Navigation arrows
 			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},	
 
-			  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-		clickable: true, 
-  },
+			  
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true, 
+			},
 	
 			breakpoints: {
 	
 					320: {
 							slidesPerView: 1,
 							slidesPerGroup: 1,
-							spaceBetween: 40,
+							spaceBetween: 10,
 					},
 					
-	}
+	}})}
 
+ const swiper2 = new Swiper('.swiper2', {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: false,
+
+	// Navigation arrows
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+
+		// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+clickable: true, 
+},
+
+	breakpoints: {
+
+			1300: {
+					slidesPerView: 4,
+					slidesPerGroup: 1,
+					spaceBetween: 40,
+			},
+			
+			1000: {
+				slidesPerView: 3,
+				slidesPerGroup: 1,
+				spaceBetween: 70,
+		},
+
+		700: {
+			slidesPerView: 3,
+			slidesPerGroup: 1,
+			spaceBetween: 30,
+	},
 }
 
-)
+})
 
- }

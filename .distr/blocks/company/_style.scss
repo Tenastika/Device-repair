@@ -1,0 +1,95 @@
+.company {
+  background: url(../img/company/back-ar.png) 30% 20% no-repeat,
+              url(../img/company/back-dots.png) 95% 90% no-repeat,
+              url(../img/company/back-el.png) 5% 90% no-repeat,
+              url(../img/company/back-wave.png) 92% 50% no-repeat,
+              linear-gradient(#EBF3F8, #ebf3f800);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+
+  &__info {
+    width: 30%;
+    p {
+      font: 400 24px/30px 'Gilroy';
+      margin-bottom: 65px;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 182px;
+      height: 64px;
+      color: #fff;
+    }
+    span {
+      display: block;
+      position: relative;
+      margin-left: -30px;
+    }
+    span:after {
+      content: url(../img/company/arrow.png);
+      position: absolute;
+      right: -30px;
+      top: 4px
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 60px;
+    padding: 20px 0 0 100px;
+  }
+
+  &__list-item {
+    img {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__reviews {
+  }
+.swiper-slide {
+ // display: flex;
+ background-size: cover; 
+
+}
+
+.swiper-wrapper {
+  overflow: hidden;
+}
+
+.container {
+  //overflow: hidden;
+}
+
+.btn {
+}
+.swiper2 {
+  position: relative;
+  padding: 10px;
+}
+.swiper-btns {
+  position: relative;
+  width: 100px;
+  margin-left: auto;
+  top: -50px;
+}
+.swiper-button-prev {
+  
+}
+.swiper-button-next {
+}
+
+
+.swiper-pagination {
+  bottom: -30px
+}
+
+}
+
+

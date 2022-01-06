@@ -1,0 +1,84 @@
+
+.orders {
+  background: url(../img/orders/back-ar.png) 45% 9% no-repeat,
+url(../img/orders/back-dots.png) 80% 55% no-repeat,
+url(../img/orders/back-el.png) 90% 95% no-repeat,
+url(../img/orders/back-wave.png) 13% 50% no-repeat,
+linear-gradient(#EBF3F8, #ebf3f800);
+
+
+
+  &__slider {
+    margin-bottom: 150px;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__content-info {
+    width: 40%;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      background: url(../img/orders/check-icon.png) no-repeat;
+      width: 370px;
+      padding-left: 50px;
+      margin-bottom: 35px;
+      font: 400 14px/22px 'Montserrat';
+    }
+
+    .btn {
+      width: 330px;
+      height: 80px;
+    }
+    
+  }
+
+  &__services {
+    margin-left: 120px;
+    h3 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__servies-items {
+    display: flex;
+  }
+
+   
+
+  &__servies-item {
+    position: relative;
+    padding-left: 20px;
+    font: 400 18px/24px 'Montserrat';
+    margin-bottom: 15px;
+  }
+
+  &__servies-item:before {
+    content: url(../img/orders/circle.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.container {
+}
+.swiper3 {
+}
+.swiper-btns {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
+

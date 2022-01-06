@@ -37,10 +37,7 @@
 		&__list {
 			padding: 0;
 		}
-	
 	}
-
-	
 
 	@media ( max-width: 991px ) {
 		&__list {
@@ -57,6 +54,7 @@
 		url(../img/company/back-el.png) -1% 90% no-repeat,
 		url(../img/company/back-wave.png) -1% 65% no-repeat,
 		linear-gradient(#EBF3F8, #ebf3f800);
+
 		&__list {
 			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		}
@@ -112,10 +110,8 @@
 			text-align: center;
 			
 				p {
-					
 					font: 400 16px/22px 'Gilroy';
-				}
-			
+				}		
 		}
 	}
 }

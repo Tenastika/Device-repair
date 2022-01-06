@@ -50,6 +50,11 @@
 				width: 52%;
 			}
 		}
+
+		&__servies-list {
+			width: 50%;
+		
+		}
 	
 		&__services {
 			margin-left: 0px;
@@ -83,20 +88,22 @@
 				text-align: center;
 				margin-bottom: 20px;
 			}
-		}
-		.btn {
+
+			.btn {
 			position: static;
 			margin: 0 auto;
 			width: 350px;
 			height: 64px;
 		}
+		}
+		
 	}
 
 	@media ( max-width: 425px ) {
 
 		background: url(../img/orders/back-ar.png) 50% 8% no-repeat,
 								url(../img/orders/back-dots.png) 95% 55% no-repeat,
-								url(../img/orders/back-el.png) 95% 85% no-repeat,
+								url(../img/orders/back-el.png) 95% 80% no-repeat,
 								url(../img/orders/back-wave.png) -1% 38% no-repeat,
 								linear-gradient(#EBF3F8, #ebf3f800);
 
@@ -114,13 +121,19 @@
 		}
 	}
 
+	.btn-consultation {
+			display: block;
+		}
+
 	&__servies-items {
     flex-direction: column;
+		margin-bottom: 30px;
   }
 	&__servies-list {
     width: 100%;
     padding: 0;
     margin-right: 0;
+		margin-bottom: 0;
 		font: 400 14px/20px 'Montserrat';
   }
 	}

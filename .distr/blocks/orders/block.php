@@ -57,7 +57,9 @@
 						<li class="orders__servies-item">восстановление жестких дисков</li>
 						<li class="orders__servies-item">компьютерная помощь и IT аутсорсинги др. </li>
 					</ul>
+					
 				</div>
+				<button class="btn-consultation btn">Бесплатная консультация</button>
 			</div>
 		</div>
 	</div> 

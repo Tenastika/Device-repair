@@ -35,7 +35,6 @@ linear-gradient(#EBF3F8, #ebf3f800);
       width: 330px;
       height: 80px;
     }
-    
   }
 
   &__services {
@@ -43,13 +42,23 @@ linear-gradient(#EBF3F8, #ebf3f800);
     h3 {
       margin-bottom: 15px;
     }
+    
   }
-
+  .btn-consultation {
+        display: none;
+        width: 233px;
+        height: 48px;
+        margin: 0 auto;
+        font: 600 14px/28px 'Montserrat';
+      }
   &__servies-items {
     display: flex;
   }
 
-   
+  &__servies-list {
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
 
   &__servies-item {
     position: relative;

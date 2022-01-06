@@ -1,0 +1,38 @@
+.presents {
+  background: #F4F9FC;
+  
+  &__card {
+    width: 310px;
+    height: 400px;
+    background: url(../img/presents/back.png) 90% 10% no-repeat;
+    background-size: 350px 360px;
+    padding: 0 0 0 30px; 
+}
+
+&__card-img {
+  display: flex;
+  align-items: center;
+  height: 220px;
+
+  img {
+     object-fit: contain;
+     width: 80%;
+    }
+}
+}
+.container {
+}
+.swiper4 {
+}
+.swiper-btns {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}

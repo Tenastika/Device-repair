@@ -1,0 +1,142 @@
+.advantages {
+  .container {
+    padding-top: 0;
+  }
+
+  background:
+              url(../img/advantages/back-ar.png) 35% 50% no-repeat,
+              url(../img/advantages/back-el.png) 90% 60% no-repeat,
+              url(../img/advantages/back-wave.png) 5% 12% no-repeat,
+              #F4F9FC;
+  &__title {
+    position: relative;
+    max-width: 700px;
+    font: 500 24px/32px 'Montserrat';
+    text-align: center;
+    margin: 0 auto 50px;
+    
+  }
+
+ 
+
+  &__title::before {
+    content: url(../img/advantages/left-mar.png);
+    position: absolute;
+    left: -20px;
+    top: -20px;
+  }
+  &__title::after {
+    content: url(../img/advantages/right-mar.png);
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .swiper-advantages {
+    width: 50%;
+  }
+
+  &__content-text {
+    width: 40%;
+    padding-top: 80px;
+    p {
+      font: 400 18px/24px 'Montserrat';
+      margin-bottom: 20px;
+    }
+  }
+
+  
+
+  &__block-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    border: 2px solid #C7D1D7;
+    border-radius: 30px;
+  }
+
+  &__block-sale {
+    position: relative;
+    background: #F4F9FC;
+    width: 200px;
+    margin-top: -110px;
+    padding-left: 20px;
+    color: #FF6B00;
+    font: 700 113px/113px 'Bebas Neue';
+    text-shadow: 0px 100px 80px rgba(255, 107, 0, 0.11), 0px 46.233px 36.9864px rgba(255, 107, 0, 0.0815843), 0px 26.4535px 21.1628px rgba(255, 107, 0, 0.0689459), 0px 16.0571px 12.8457px rgba(255, 107, 0, 0.0593943), 0px 9.67509px 7.74008px rgba(255, 107, 0, 0.0506057), 0px 5.38772px 4.31018px rgba(255, 107, 0, 0.0410541), 0px 2.31722px 1.85378px rgba(255, 107, 0, 0.0284157);
+   }
+
+   &__block-sale::after {
+    content: url(../img/advantages/fire.png);
+    position: absolute ;
+    top: 1%;
+    right: -40%;
+   }
+  
+
+  &__block-title {
+    width: 35%;
+    h3 {
+      padding-top: 40px;
+    }
+
+    span {
+      color: #E2001A;
+    }
+  }
+
+  &__form {
+    input {
+      height: 64px;
+      background: #F4F9FC;
+      border: 1px solid #C7D1D7;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    
+  }
+
+  &__form-date {
+    width: 240px;
+    margin-right: 20px;
+  }
+
+
+  &__form-time {
+    width: 260px;
+  }
+
+  &__form-tel {
+    display: block;
+    width: 524px;
+  }
+
+  &__form-btn {
+    width: 240px;
+    height: 64px;
+  }
+}
+.container {
+}
+.swiper-advantages {
+}
+.swiper-btns {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
+.btn {
+}

@@ -1,0 +1,85 @@
+.contacts {
+   &__map {
+   
+    
+  }
+  
+
+  .container {
+   
+  }
+
+  &__info {
+    position: relative;
+    width: 100%;
+    margin-bottom: -200px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 60px rgba(255, 107, 0, 0.08), 0px 8px 10px rgba(255, 107, 0, 0.08);
+    border-radius: 30px;
+    padding: 30px 50px;
+  }
+
+  
+
+  &__info-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    img {
+      margin-right: 20px;
+    }
+    span {
+      padding: 0 10px;
+    }
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    font: 500 20px/24px 'Montserrat';
+  }
+
+  &__info-tel { 
+  //  a {
+  //    white-space: nowrap;
+  //  }
+   
+  }
+
+  &__info-mail {
+  }
+
+  &__info-address {
+  }
+
+  &__info-soc {
+    display: flex;
+  }
+
+  &__info-reiting {
+    margin-right: 220px;
+  }
+
+  &__info-socials {
+    img {
+      margin-right: 15px;
+    }
+  }
+
+  
+}
+
+.swiper-contacts {
+}
+.swiper-btns {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}

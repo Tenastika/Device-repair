@@ -86,3 +86,10 @@ clickable: true,
 
 })
 
+accordeon(document.querySelectorAll('.block__title'));
+function accordeon(items) {
+	for (let item of items) {
+		item.addEventListener('click', function() { this.parentNode.classList.toggle('_active')
+	})
+}
+}

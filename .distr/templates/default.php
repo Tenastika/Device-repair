@@ -22,13 +22,16 @@
 
 		{% block blocks %}
 		<div class="wrapper">
-		{% include 'header/block.php' %}
-		{% include 'main/block.php' %}
-		{% include 'gadgets/block.php' %}
-		{% include 'company/block.php' %}
-		{% include 'orders/block.php' %}
-		{% include 'presents/block.php' %}
-		{% include 'advantages/block.php' %}
+			{% include 'header/block.php' %}
+			{% include 'main/block.php' %}
+			{% include 'gadgets/block.php' %}
+			{% include 'company/block.php' %}
+			{% include 'orders/block.php' %}
+			{% include 'presents/block.php' %}
+			{% include 'advantages/block.php' %}
+			{% include 'questions/block.php' %}
+			{% include 'contacts/block.php' %}
+		
 		</div>
 
 		{% endblock %}

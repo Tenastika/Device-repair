@@ -1,0 +1,76 @@
+.contacts {
+
+	@media ( max-width: 1300px ) {
+		//  iframe {
+		// 	width: 1300px;
+		// 	height: 500px;
+		// 	object-fit: center;
+		// 	margin-left: auto;
+    // margin-right: auto;
+		// }
+
+		.link {
+			flex-direction: column;
+			text-align: center;
+			width: 33%;
+			font: 500 18px/21px 'Montserrat';
+			span {
+				display: none;
+			}
+			img {
+				margin-bottom: 20px;
+			}
+		}
+
+		&__info-soc {
+			justify-content: space-between;
+		}
+	}
+
+	@media ( max-width: 991px ) {
+		// &__map {
+		// 	width: 990px;
+		// 	height: 400px;
+				
+		// }
+	}
+
+	@media ( max-width: 768px ) {
+		&__info {
+			padding: 20px 40px;
+		}
+	
+		&__info-reiting {
+			margin-right: 30px;
+		}
+	}
+
+	@media ( max-width: 600px ) {
+		&__info-links {
+			flex-direction: column;
+		}
+		.link {
+			flex-direction: column;
+			width: 100%;
+			margin-bottom: 25px;
+			img {
+				margin-bottom: 15px;
+			}
+		}
+
+		&__info-soc {
+			text-align: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		&__info-reiting {
+			margin-bottom: 40px;
+		}
+	}
+
+	@media ( max-width: 425px ) {
+		&__info {
+			padding: 20px 20px;
+		}
+	}
+}

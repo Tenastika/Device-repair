@@ -70,13 +70,20 @@
 			position: static;
 			display: flex;
 			width: 720px;
-			height: 200px;
+			height: 250px;
 			margin: 0 auto;
 			margin-bottom: 50px;
 			
-			span {
+			.underline {
 				display: none;
 			}
+		}
+
+		&__sale-info {
+			display: flex;
+			flex-direction: column;
+			margin-left: auto;
+			width: 60%;
 		}
 
 		&__sale-percent {
@@ -91,8 +98,8 @@
 			right: -50%;
 		}
 		&__sale-text {
-			padding-left: 50px;
-			margin-bottom: 20px;
+			padding-left: 0;
+			margin-bottom: 10px;
 			font: 400 20px/26px 'Gilroy';
 		}
 		&__title-content {
@@ -104,6 +111,7 @@
 			margin-bottom: 50px;
 		}
 
+		
 	}
 
 	@media ( max-width: 768px ) {
@@ -118,7 +126,7 @@
 		}
 	}
 
-	@media ( max-width: 550px ) {
+	@media ( max-width: 590px ) {
 		background: url(../img/main/Ellipse.png) 5% 18% no-repeat,
 		url(../img/main/Arrow.png) 5% 2% no-repeat,
 		url(../img/main/Dots.png) 95% 18% no-repeat,
@@ -143,14 +151,31 @@
 			font: 400 20px/26px 'Gilroy';
 		}
 
+		&__sale-info {
+			display: flex;
+			flex-direction: column;
+			margin-left: auto;
+			width: 100%;
+		}
+
 		&__title-content {
 			margin-bottom: 60px;
+		}
+		h4 {
+			text-align: center;
+		}
+		.timer {
+			margin: 0 auto;
 		}
 	}
 
 	@media ( max-width: 425px ) {
 		&__info {
 			gap: 30px;
+		}
+		&__sale {	
+			height: 280px;
+			padding: 10px;
 		}
 	}
 

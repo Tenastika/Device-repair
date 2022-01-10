@@ -1,10 +1,7 @@
 .gadgets {
   background: linear-gradient(#EBF3F8
-  , #ebf3f800
-  );
-  .for-slider {
-    display: none;
-  }
+  , #ebf3f800);
+ 
   &__content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
@@ -31,15 +28,27 @@
     img {
     height: 240px;
     }
-  }
-  &__card::after {
-    content: url(../img/gadgets/btn.png);
-    position: absolute;
-    right: 0;
-    bottom: 5px;
-  }
 
-  
+    button {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      background: url(../img/gadgets/btn.png) no-repeat;
+      background-position: cover;
+      width: 150px;
+      height: 150px;
+    }
+
+    button:active {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      background: url(../img/gadgets/btn-ac.png) no-repeat;
+      background-position: cover;
+      width: 150px;
+      height: 150px;
+    }
+  }
 }
 .container {
 }

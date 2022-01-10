@@ -30,9 +30,9 @@
 			</ul>
 		</div>
 
-		<div class="company__reviews">
+		<div class="company__reviews" id="reviews">
 			<h3>Отзывы счастливых клиентов</h3>
-			<div class="swiper2">
+			<div class="swiper-company swiper">
 				<div class="swiper-btns">
 					<div class="swiper-button-prev"></div>
 					<div class="swiper-button-next"></div>
@@ -41,19 +41,19 @@
 				<div class="swiper-wrapper">
 			
 					<div class="swiper-slide">
-					<iframe src="https://www.youtube.com/embed/Br0Dh6VeTCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="swiper-slide">
-					<iframe src="https://www.youtube.com/embed/Br0Dh6VeTCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="swiper-slide">
-					<iframe  src="https://www.youtube.com/embed/Br0Dh6VeTCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="swiper-slide">
-					<iframe  src="https://www.youtube.com/embed/Br0Dh6VeTCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div class="swiper-slide">
-					<iframe  src="https://www.youtube.com/embed/Br0Dh6VeTCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/RK1K2bCg4J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					
 		

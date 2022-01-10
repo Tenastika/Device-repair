@@ -1,14 +1,19 @@
 .advantages {
 
 	@media ( max-width: 1200px ) {
-	}
-
-	@media ( max-width: 991px ) {
 		background:
 		url(../img/advantages/back-ar.png) 35% 45% no-repeat,
 		url(../img/advantages/back-el.png) 102% 45% no-repeat,
-		url(../img/advantages/back-wave.png) -1% 10% no-repeat,
+		url(../img/advantages/back-wave.png) -3% 5% no-repeat,
 		#F4F9FC;
+
+		&__content-text {
+			
+			padding-top: 0;
+		}
+	}
+
+	@media ( max-width: 991px ) {
 
 		&__content {
 			margin-bottom: 150px;
@@ -87,6 +92,10 @@
 		&__title::after {
 			right: 0px;
 			bottom: -30px;
+		}
+
+		.swiper-advantages {
+			width: 100%;
 		}
 	}
 

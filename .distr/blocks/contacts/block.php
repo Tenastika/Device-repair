@@ -1,7 +1,7 @@
 <section class="contacts" id="contacts">
 	<div class="container">
 		<h3>наши контакты</h3>
-		<div class="swiper-contacts">
+		<div class="swiper-contacts swiper">
 
 			<div class="swiper-btns">
 				<div class="swiper-button-prev"></div>

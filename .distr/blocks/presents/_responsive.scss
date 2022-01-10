@@ -1,17 +1,42 @@
-.empty {
+.presents {
 
-	@media ( max-width: 1200px ) {
+	@media ( max-width: 1299px ) {
+	
+	}
+	
+	@media ( max-width: 1150px ) {
+	
+
+		}
+
+	
+
+	@media ( max-width: 1000px ) {
+	
 	}
 
-	@media ( max-width: 991px ) {
+
+	@media ( max-width: 750px ) {
+		
 	}
 
-	@media ( max-width: 768px ) {
+	@media ( max-width: 375px ) {
+		&__card {
+			height: 370px;
+			background-position: 0 100%;
+		}
+		&__card-img {
+			height: 90px;
+		}
 	}
-
-	@media ( max-width: 576px ) {
-	}
-
-	@media ( max-width: 425px ) {
+	@media ( max-width: 340px ) {
+		
+		&__card {
+			background-position: 0 110%;
+			height: 330px;
+		}
+		&__card-img {
+			height: 90px;
+		}
 	}
 }

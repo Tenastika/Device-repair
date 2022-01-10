@@ -5,6 +5,10 @@
               url(../img/company/back-wave.png) 92% 50% no-repeat,
               linear-gradient(#EBF3F8, #ebf3f800);
 
+   h3 {
+     margin-bottom: 0;
+   }           
+
   &__content {
     display: flex;
     justify-content: space-between;
@@ -52,24 +56,28 @@
   }
 
   &__reviews {
+    padding-top: 100px;
   }
 .swiper-slide {
- background-size: cover; 
+ iframe {
+   display: block;
+   width: 90%;
+   margin: 0 auto;
+ } 
 }
 
 .swiper-wrapper {
-  overflow: hidden;
+  
 }
 
-.swiper2 {
+.swiper {
   position: relative;
-  padding: 10px;
+  padding-top: 150px;
 }
 .swiper-btns {
-  position: relative;
-  width: 100px;
-  margin-left: auto;
-  top: -50px;
+  top:20px;
+  right: 5px;
+  width: 250px;
 }
 .swiper-button-prev {
   
@@ -79,7 +87,7 @@
 
 
 .swiper-pagination {
-  bottom: -30px
+  
 }
 
 }

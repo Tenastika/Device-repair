@@ -9,13 +9,13 @@
 				<p>Мы поможем не только восстановить работоспособность техники, но и подскажем, как избежать возникновения подобных поломок в будущем.</p>
 				<p>Квалифицированная консультация специалиста поможет безопасно пользоваться компьютером. В нашем штате работают опытные специалисты.</p>
 			</div>
-			<div class="swiper-advantages">
+			<div class="swiper-advantages swiper">
 				<div class="swiper-btns">
 					<div class="swiper-button-prev"></div>
 					<div class="swiper-button-next"></div>
 				</div>
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
+					<div class="swiper-slide slide">
 						<img src="img/advantages/img.png" alt="foto">
 					</div>
 					<div class="swiper-slide">

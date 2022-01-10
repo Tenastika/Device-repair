@@ -22,46 +22,53 @@
 	}
 
 	@media ( max-width: 1520px ) {
+
+		.container {
+			height: 72px;
+		}
 		
 		&__menu-btn {
 			display: block;
-			margin-left: 90px;
-			margin-right: auto;
 		}
 
 		&__menu {
 			position: absolute;
-			transform: translateX(-1100px) ;	
+			transform: translateX(-1100px);
+				
 		}
 	}
 
 	@media ( max-width: 1200px ) {
-		&__menu-btn {
-			margin-left: 45px;	
-		}
+	
 	}
 
 	@media ( max-width: 1050px ) {
-		&__address {
-			display: none;
-		}
+		
 	}
 
-	@media ( max-width: 690px ) {
+	@media ( max-width: 770px ) {
 		&__phone {
 			display: none;
 		}
 
-		&__menu-btn {
-			margin-left: auto;
-			margin-right: 0;
-		}
+	
 	}
 
 	@media ( max-width: 425px ) {
+		.container {
+			padding: 10px 5px 20px 5px;
+		}
+		&.fixed {
+			padding: 0 5px;
+		}
+		
 		&__logo {
 			width: 137px;
 			height: 50px;
 		}
+		&__address {
+			width: 80%;
+		}
+	
 	}
 }

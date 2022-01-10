@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="orders__slider">
 			<h3>Выполненные заказы</h3>
-			<div class="swiper3">
+			<div class="swiper-orders swiper">
 
 				<div class="swiper-btns">
 					<div class="swiper-button-prev"></div>
@@ -59,7 +59,7 @@
 					</ul>
 					
 				</div>
-				<button class="btn-consultation btn">Бесплатная консультация</button>
+				<button class="btn-consultation btn open-modal">Бесплатная консультация</button>
 			</div>
 		</div>
 	</div> 

@@ -16,7 +16,7 @@
 	@media ( max-width: 768px ) {
 	}
 
-	@media ( max-width: 630px ) {
+	@media ( max-width: 650px ) {
 		&__title {
 			 grid-column-start:1;
 			 grid-column-end: 1;
@@ -29,64 +29,15 @@
 		}
 	}
 
-	@media ( max-width: 630px ) {
-		.container {
+	@media ( max-width: 650px ) {
+		&__title {
+			text-align: center;
 			padding: 0;
 		}
 		
-		.swiper {
-			
-		}
-				.swiper-slide {
-					
-				}
-		h2 {
-					margin-bottom: 0;
-				}
-		
-		&__content {
-			display: flex;
-			justify-content: space-between;
-		}
-		&__title {
-			display: none;
-		}
-		.for-slider {
-			display: block;
-			padding: 20px 20px;
-			text-align: center;
-		}
-		.swiper-pagination-horizontal {
-			
-			bottom: 10px;
-		}
-		
-		.swiper-pagination-bullet{
-			width: 4px;
-			height: 4px;
-			background-color: #13171D;
-			vertical-align: middle;
-		}
-
-		.swiper-pagination-bullet-active {
-			width: 12px;
-			height: 12px;
-			background-color: #F4F9FC;
-			border: 2px solid red
-		}
 	}
 
 	@media ( max-width: 320px ) {
-		.swiper {
 		
-		}
-
-		.for-slider {
-			padding: 20px 0;
-			
-		}
-		&__card {
-		
-		}
 	}
 }

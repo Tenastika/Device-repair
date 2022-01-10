@@ -1,0 +1,58 @@
+.modals {
+  .container {
+    padding: 0;
+  }
+  &__bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: 0.8);
+    display: none;
+    z-index: 600;
+  }
+
+  &__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  &__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 60%;
+    border-radius: 20px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+
+    h3 {
+      text-align: center;
+      font: 700 32px/32px 'Bebas Neue';
+      margin-bottom: 30px;
+    }
+    span {
+      color: #E2001A;
+    }
+    input, button {
+      width: 100%;
+      height: 65px;
+      border-radius: 15px;
+    }
+    input {
+      border: 2px solid #DADADA;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  }
+
+  &__done {
+  }
+
+  &__done-img {
+  }
+}

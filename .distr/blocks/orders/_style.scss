@@ -9,7 +9,12 @@ linear-gradient(#EBF3F8, #ebf3f800);
 
 
   &__slider {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    img {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 
   &__content {

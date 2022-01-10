@@ -1,0 +1,44 @@
+.modals {
+
+	@media ( max-width: 1200px ) {
+	}
+
+	@media ( max-width: 991px ) {
+	}
+
+	@media ( max-width: 768px ) {
+	}
+
+	@media ( max-width: 520px ) {
+		&__form {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background: #fff;
+			width: 90%;
+			border-radius: 20px;
+			padding: 30px;
+			transform: translate(-50%, -50%);
+	
+			h3 {
+				text-align: center;
+				font: 700 25px/25px 'Bebas Neue';
+				margin-bottom: 20px;
+			}
+
+			input, button {
+			
+				height: 50px;
+			
+			}
+			input {
+				border: 2px solid #DADADA;
+				margin-bottom: 10px;
+				padding: 10px;
+			}
+		}
+	}
+	@media ( max-width: 425px ) {
+	}
+
+}

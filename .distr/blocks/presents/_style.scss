@@ -1,28 +1,44 @@
 .presents {
-  background: #F4F9FC;
-  
+
   &__card {
-    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../img/presents/back.png) no-repeat;
+    background-position: 0 130%;
+    background-size: 100%;
+    max-width: 350px;
     height: 400px;
-    background: url(../img/presents/back.png) 90% 10% no-repeat;
-    background-size: 350px 360px;
-    padding: 0 0 0 30px; 
-}
+    padding-bottom: 60px;
+    margin: 0 auto;
 
-&__card-img {
-  display: flex;
-  align-items: center;
-  height: 220px;
+  }
 
-  img {
-     object-fit: contain;
-     width: 80%;
+  &__card-img {
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    img {
+      display: block;
+      width: 90%;
+      
+      margin: auto;
     }
-}
-}
+   
+  }
+  h4 {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+  }
+
 .container {
 }
-.swiper4 {
+.swiper-presents {
+}
+.swiper {
 }
 .swiper-btns {
 }
@@ -33,6 +49,9 @@
 .swiper-wrapper {
 }
 .swiper-slide {
+  
 }
 .swiper-pagination {
+}
+
 }

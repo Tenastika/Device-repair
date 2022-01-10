@@ -1,6 +1,7 @@
 .main {
   .container {
     padding-top: 200px;
+    padding-bottom: 60px;
  }
   position: relative;
    background: url(../img/main/Ellipse.png) 5% 70% no-repeat,
@@ -66,7 +67,7 @@
     padding: 30px;
     box-shadow: 0px 71px 80px rgba(255, 107, 0, 0.11), 0px 21.4044px 24.1177px rgba(255, 107, 0, 0.0716748), 0px 8.8903px 10.0172px rgba(255, 107, 0, 0.055), 0px 3.21545px 3.62304px rgba(255, 107, 0, 0.0383252);
 
-    span {
+    .underline {
       display: block;
       margin: 0 auto;
       width: 95%;
@@ -94,6 +95,49 @@
     margin-bottom: 20px;
     font: 400 20px/26px 'Gilroy';
   }
+
+ 
+.timer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+		&__days,
+    &__hours,
+    &__minutes,
+    &__seconds{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 60px;
+		}
+
+    &__days-num,
+    &__hours-num,
+    &__minutes-num,
+    &__seconds-num{
+      font: 600 32px/38px 'Gilroy';
+      color: #13171d70;
+      width: 48px;
+      height: 48px;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 7px;
+      background: #ea863e;
+      box-shadow: inset 6px 6px 12px #d77b39,
+                  inset -6px -6px 12px #fd9143;
+		}
+
+		&__days-txt,
+    &__hours-txt,
+    &__minutes-txt,
+    &__seconds-txt{
+      font: 600 11px/13px 'Gilroy';
+      color: #13171d70;
+      text-align: center;
+		}
+}
+
 }
 
 

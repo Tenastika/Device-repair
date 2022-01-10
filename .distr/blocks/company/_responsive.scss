@@ -58,6 +58,14 @@
 		&__list {
 			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		}
+		.swiper {
+		
+			padding-top: 100px;
+		}
+		.swiper-btns {
+		
+			width: 180px;
+		}
 	}
 
 	@media ( max-width: 580px ) {
@@ -76,7 +84,7 @@
 		}
 	}
 
-	@media ( max-width: 425px ) {
+	@media ( max-width: 450px ) {
 		&__info {
 			width: 100%;
 			text-align: center;
@@ -97,6 +105,15 @@
 
 		&__list {
 			gap: 20px;
+		}
+
+		.swiper {
+			
+			padding-top: 70px;
+		}
+		.swiper-btns {
+		
+			width: 100px;
 		}
 	}
 

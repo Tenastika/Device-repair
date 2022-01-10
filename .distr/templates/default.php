@@ -31,6 +31,7 @@
 			{% include 'advantages/block.php' %}
 			{% include 'questions/block.php' %}
 			{% include 'contacts/block.php' %}
+			{% include 'modals/block.php' %}
 		
 		</div>
 

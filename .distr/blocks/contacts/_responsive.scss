@@ -1,14 +1,7 @@
 .contacts {
 
 	@media ( max-width: 1300px ) {
-		//  iframe {
-		// 	width: 1300px;
-		// 	height: 500px;
-		// 	object-fit: center;
-		// 	margin-left: auto;
-    // margin-right: auto;
-		// }
-
+	
 		.link {
 			flex-direction: column;
 			text-align: center;
@@ -28,11 +21,7 @@
 	}
 
 	@media ( max-width: 991px ) {
-		// &__map {
-		// 	width: 990px;
-		// 	height: 400px;
-				
-		// }
+	
 	}
 
 	@media ( max-width: 768px ) {
@@ -43,6 +32,7 @@
 		&__info-reiting {
 			margin-right: 30px;
 		}
+
 	}
 
 	@media ( max-width: 600px ) {

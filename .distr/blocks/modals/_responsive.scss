@@ -1,15 +1,6 @@
 .modals {
 
-	@media ( max-width: 1200px ) {
-	}
-
-	@media ( max-width: 991px ) {
-	}
-
-	@media ( max-width: 768px ) {
-	}
-
-	@media ( max-width: 520px ) {
+	
 		&__form {
 			position: absolute;
 			top: 50%;
@@ -37,8 +28,8 @@
 				padding: 10px;
 			}
 		}
-	}
+
 	@media ( max-width: 425px ) {
 	}
 
-}
+	}

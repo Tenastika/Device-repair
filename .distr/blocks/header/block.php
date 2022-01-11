@@ -16,8 +16,6 @@
 			</div>
 		</nav>
 
-		
-
 		<div class="header__phone">
 			<a href="tel:069 82 77 38" class="header__phone-num">069 82 77 38</a>
 			<span> / </span>

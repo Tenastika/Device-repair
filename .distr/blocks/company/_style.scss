@@ -59,16 +59,12 @@
     padding-top: 100px;
   }
 .swiper-slide {
- iframe {
-   display: block;
-   width: 90%;
-   margin: 0 auto;
- } 
-}
-
-.swiper-wrapper {
-  
-}
+  iframe {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  } 
+  }
 
 .swiper {
   position: relative;
@@ -79,16 +75,7 @@
   right: 5px;
   width: 250px;
 }
-.swiper-button-prev {
-  
-}
-.swiper-button-next {
-}
 
-
-.swiper-pagination {
-  
-}
 
 }
 

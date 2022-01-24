@@ -78,6 +78,14 @@ linear-gradient(#EBF3F8, #ebf3f800);
     top: 0;
     left: 0;
   }
+
+  .swiper-btns {
+    top:50%;
+    transform: translate(0%, -50%);
+    right: 1%;
+    width: 97%;
+    z-index: 5;
+  }
 }
 
 

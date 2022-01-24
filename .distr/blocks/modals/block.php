@@ -11,14 +11,5 @@
 				</form>
 			</div>	
 		</div>	
-		<!-- <div class="modals__bg">
-			<div class="modals__done">
-				<div class="modals__done-img">
-					<img src="../img/modals/icon.png" alt="icon">
-				</div>
-				<h3>Ваша заявка отправлена</h3>
-				<p>Мы свяжемся с вами в ближайшее время</p>
-			</div>
-		</div> -->
 	</div>
 </section>

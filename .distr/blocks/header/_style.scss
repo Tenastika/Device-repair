@@ -1,7 +1,9 @@
 .header {
+
   .container {
     padding: 20px;
   }
+
   &__menu-btn {
     display: none;
     margin-left: 80px;
@@ -11,36 +13,38 @@
     border-radius: 15px;
     box-shadow: 0px 8px 16px rgba(255, 107, 0, 0.16);
     background-color: #fff;
-    background: 
-              url(../img/header/menu.png) center no-repeat,
-              #FFFFFF;
-              
+    background:
+      url(../img/header/menu.png) center no-repeat,
+      #FFFFFF;
+
   }
+
   &__menu-btn.is-active {
     position: relative;
-    
-    background: 
-              url(../img/header/menu-close.png) center no-repeat,
-              #FFFFFF;
+
+    background:
+      url(../img/header/menu-close.png) center no-repeat,
+      #FFFFFF;
   }
-  
-  
+
+
   &.fixed {
     max-width: 1920px;
+
     .container {
       padding: 0;
       margin: 0;
     }
-    
+
     position: fixed;
     box-shadow: 0px 5px 20px #CDDAE1;
     padding: 0px 30px;
     top: 0;
     z-index: 500;
 
-      .header__address {
-        display: none;
-      }
+    .header__address {
+      display: none;
+    }
 
     .header__logo {
       position: relative;
@@ -64,26 +68,28 @@
       font: 600 16px/19px 'Gilroy';
       margin-left: 24px;
       padding-bottom: 25px;
-      padding-top: 25px; 
+      padding-top: 25px;
     }
+
     .header__menu-item:hover {
       padding-bottom: 23px;
       color: #E2001A;
       border-bottom: 2px solid #E2001A;
     }
   }
-  
+
   &__logo {
     position: relative;
     width: 202px;
     height: 70px;
     background: url(../img/header/logo.png) left /contain no-repeat;
   }
- 
+
 
   &__menu {
     display: flex;
   }
+
   &__menu-btn {
     margin-left: 130px;
   }
@@ -93,8 +99,9 @@
     font: 600 16px/19px 'Gilroy';
     margin-left: 24px;
     padding-bottom: 20px;
-    padding-top: 20px; 
+    padding-top: 20px;
   }
+
   &__menu-item:hover {
     padding-bottom: 18px;
     color: #E2001A;
@@ -108,13 +115,14 @@
     padding-left: 60px;
     padding-top: 20px;
     font: 400 14px/17px 'Montserrat';
-    
+
     a {
       font: 400 12px/14px 'Montserrat';
       text-decoration: underline;
       color: #015AA9;
     }
   }
+
   &__address::before {
     content: url(../img/header/map.png);
     display: block;
@@ -128,14 +136,16 @@
     padding-right: 70px;
     font: 600 20px/24px 'Gilroy';
     margin-left: auto;
+    transition: all 0.5s;
   }
- 
+
   &__phone::after {
     content: url(../img/header/phone-call.png);
     display: block;
     position: absolute;
     right: 0;
     top: -10px;
+
   }
 
   &__phone:hover::after {
@@ -146,48 +156,50 @@
     top: -10px;
   }
 
- .container {
-  max-width: 1920px;
-  padding: 30px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-   align-items: center;
-}
-.menu {
-  display: flex;
-} 
-
-.active-menu {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 374px;
-  height: 400px;  
-  background-color: #F4F9FC;
-  top: 100px;
-  left: 0;
-  z-index: 1; 
-  transform: translateX(0%);
-  transition: transform 1s ease-out;
-  
-
-  .header__menu-item {
-    display: block;
-    font: 600 16px/19px 'Gilroy';
-    margin-left: 24px;
-    padding-bottom: 25px;
-    padding-top: 25px; 
+  .container {
+    max-width: 1920px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .header__menu-item:hover {
-    padding-bottom: 25px;
-    color: #E2001A;
-    border-bottom: none;
+  .menu {
+    display: flex;
   }
 
+  .active-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 374px;
+    height: 100vh;
+    background-color: #F4F9FC;
+    top: 100px;
+    left: 0;
+    z-index: 1;
+    transform: translateX(0%);
+    transition: all 1s;
 
-      
-}
+    .header__address {
+      display: inline-block;
+    }
 
+
+    .header__menu-item {
+      display: block;
+      font: 600 16px/19px 'Gilroy';
+      margin-left: 24px;
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+
+    .header__menu-item:hover {
+      padding-bottom: 25px;
+      color: #E2001A;
+      border-bottom: none;
+      transition: all 0.5s;
+    }
+  }
 }

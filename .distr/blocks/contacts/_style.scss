@@ -1,10 +1,5 @@
 .contacts {
-   &__map {
-   
-    
-  }
   
-
   .container {
     overflow: visible;
   }
@@ -19,8 +14,6 @@
     padding: 30px 50px;
     
   }
-
-  
 
   &__info-links {
     display: flex;
@@ -40,18 +33,7 @@
     font: 500 20px/24px 'Montserrat';
   }
 
-  &__info-tel { 
-  //  a {
-  //    white-space: nowrap;
-  //  }
-   
-  }
-
-  &__info-mail {
-  }
-
-  &__info-address {
-  }
+  
 
   &__info-soc {
     display: flex;
@@ -72,6 +54,14 @@
       width: 85%;
       margin: 0 auto;
     }
+  }
+
+  .swiper-btns {
+    top:50%;
+    transform: translate(0%, -50%);
+    right: 1%;
+    width: 97%;
+    z-index: 5;
   }
  
 }

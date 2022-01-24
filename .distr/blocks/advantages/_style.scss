@@ -44,6 +44,14 @@
     
   }
 
+  .swiper-btns {
+    top:50%;
+    transform: translate(0%, -50%);
+    right: 2%;
+    width: 97%;
+    z-index: 5;
+  }
+
   img {
     display: block;
     width: 85%;
@@ -107,6 +115,11 @@
       border-radius: 15px;
       margin-bottom: 20px;
       padding: 10px;
+    }
+
+    input:focus {
+      background: #3b6b921c;
+      box-shadow:inset 1px 1px 4px 2px #1a31441c;
     }
     
   }

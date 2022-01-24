@@ -34,4 +34,12 @@
     margin-top: auto;
   }
 
+  .swiper-btns {
+    top:50%;
+    transform: translate(0%, -50%);
+    right: 2%;
+    width: 97%;
+    z-index: 5;
+  }
+
 }

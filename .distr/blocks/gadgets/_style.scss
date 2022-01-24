@@ -1,7 +1,6 @@
 .gadgets {
-  background: linear-gradient(#EBF3F8
-  , #ebf3f800);
- 
+  background: linear-gradient(#EBF3F8, #ebf3f800);
+
   &__content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
@@ -10,40 +9,40 @@
 
   &__title {
     align-self: center;
-    grid-column-start:1;
-     grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
   &__card {
     position: relative;
     align-self: center;
-  justify-self: center;
+    justify-self: center;
     padding: 0px 10px 30px 30px;
     width: 310px;
     height: 400px;
-    background: url(../img/gadgets/back.png)  no-repeat;
+    background: url(../img/gadgets/back.png) no-repeat;
     background-size: 380px 410px;
     background-position: -40px 10px;
 
     img {
-    height: 240px;
+      height: 240px;
     }
 
     button {
       position: absolute;
       right: 0;
       bottom: 5px;
-      background: url(../img/gadgets/btn.png) no-repeat;
+      background: url(../img/gadgets/btn.svg) no-repeat;
       background-position: cover;
       width: 150px;
       height: 150px;
     }
 
-    button:active {
+    button:hover {
       position: absolute;
       right: 0;
-      bottom: 5px;
-      background: url(../img/gadgets/btn-ac.png) no-repeat;
+      bottom: 0px;
+      background: url(../img/gadgets/btn-ac.svg) no-repeat;
       background-position: cover;
       width: 150px;
       height: 150px;
